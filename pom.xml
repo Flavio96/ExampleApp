@@ -3,16 +3,17 @@
   <groupId>com.example.maven</groupId>
   <artifactId>ExampleApp</artifactId>
   <version>0.0.1-SNAPSHOT</version>
- <properties>
+   <packaging>jar</packaging>
+    <!-- <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <jdk.version>1.7</jdk.version>
     <spring.version>4.1.1.RELEASE</spring.version>
     <jstl.version>1.2</jstl.version>
     <junit.version>4.11</junit.version>
-  </properties>
+  </properties> -->
   <build>
-    <sourceDirectory>src</sourceDirectory>
+    <!-- <sourceDirectory>src</sourceDirectory>
     <resources>
     	<resource>
     		<directory>src</directory>
@@ -20,8 +21,8 @@
     			<exclude>**/*.java</exclude>
     		</excludes>
     	</resource>
-    </resources>
-    <plugins>
+    </resources> -->
+    <!--<plugins> 
 	    <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.5.1</version>
@@ -30,6 +31,6 @@
           <target>1.8</target>
         </configuration>
       </plugin>
-    </plugins>
+      </plugins> -->
   </build>
 </project>
